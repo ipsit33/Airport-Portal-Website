@@ -1,4 +1,4 @@
-![5](https://github.com/ipsit33/Airport-Portal-Website/assets/85749577/6952f29e-0dad-471a-b4b3-a07ddb0f566e)# Airport Portal Website
+# Airport Portal Website
 
 
 <h1>Team Name: Mern Master</h1> <br>
