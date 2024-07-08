@@ -64,7 +64,7 @@ function submitForm(event) {
         selectedFlight: selectedFlight.id
       };
 
-      fetch("http://localhost:8080/ticket-info", {
+      fetch("https://airportserver-api1.onrender.com/ticket-info", {
         method: "POST",
         headers: {
           "Content-Type": "application/json"
