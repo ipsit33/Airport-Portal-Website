@@ -14,7 +14,7 @@ if (token) {
 
 //Bookings table
 const id=JSON.parse(localStorage.getItem("bookid"));
-fetch(`http://localhost:8080/ticket-info/${id}`,{
+fetch(`https://airportserver-api1.onrender.com/${id}`,{
     method:"GET"
 }).then((res)=>res.json())
 .then((data)=>appendData(data));
