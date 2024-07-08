@@ -2,7 +2,7 @@ const email = document.getElementById("email");
 const pass = document.getElementById("password");
 
 function findUser(el) {
-  fetch("http://localhost:8080/data", {
+  fetch("https://airportserver-api1.onrender.com/data", {
     method: "GET",
   })
     .then((res) => res.json())
