@@ -9,7 +9,7 @@ function submitData() {
       password: takenpassword.value,
     };
 
-    fetch("http://localhost:8080/data", {
+    fetch("https://airportserver-api1.onrender.com/data", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
